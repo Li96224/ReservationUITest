@@ -1,0 +1,79 @@
+{
+  "1bfc097fc348a471c2ab29e3cb49a404" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2efcfce6aa75a833",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633427267296,
+        "stop" : 1633427278400,
+        "duration" : 11104
+      }
+    } ]
+  },
+  "967ca67b12d2f8c3b124d15b020c2205" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "541768b6508eec8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633427327666,
+        "stop" : 1633427340649,
+        "duration" : 12983
+      }
+    } ]
+  },
+  "1cfaf284e034eaf60ab41069a30f7b80" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b56aef507b44b02d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633427365543,
+        "stop" : 1633427369512,
+        "duration" : 3969
+      }
+    } ]
+  },
+  "3a86d95866c1aa9036566f43beabe7ab" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "29ee3c099ab815cd",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: A new session could not be created. Details: session not created\nfrom no such window: window was already closed\n  (Session info: chrome=77.0.3865.120)",
+      "time" : {
+        "start" : 1633427279007,
+        "stop" : 1633427279007,
+        "duration" : 0
+      }
+    } ]
+  }
+}

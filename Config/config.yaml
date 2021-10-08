@@ -1,0 +1,21 @@
+
+
+
+"automationName": UiAutomator2
+"platformName": Android
+"platformVersion":  "10"
+"deviceName": UYT5T18524015578
+"appPackage": com.tencent.mm
+"appActivity":  .ui.LauncherUI
+"noReset":  True
+"fullReset":  False
+'newCommandTimeout':  60
+"chromedriverExecutable": chrome_driver_path
+"recreateChromeDriverSessions": True           #该参数解决了 在切换多个webview的时候只拿到第一个webview 不需要再杀掉前面的进程
+'chromeOptions': {
+            'androidProcess': com.tencent.mm:appbrand0
+                }
+'skipDeviceInitialization': True
+'skipUnlock	':  True
+"browserName":  ""
+'sessionOverride':  True

@@ -1,0 +1,77 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "TestCases",
+    "children" : [ {
+      "name" : "test_class_schedule_card",
+      "children" : [ {
+        "name" : "test_class_schedule_card",
+        "uid" : "2efcfce6aa75a833",
+        "parentUid" : "b1ae7fe71a4715ac2b79c73e13a07524",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633427267296,
+          "stop" : 1633427278400,
+          "duration" : 11104
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b1ae7fe71a4715ac2b79c73e13a07524"
+    }, {
+      "name" : "test_group_class_details",
+      "children" : [ {
+        "name" : "test_group_class_details",
+        "uid" : "29ee3c099ab815cd",
+        "parentUid" : "4d1f11a39cd6b51aa59db8dbd863ff2b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1633427279007,
+          "stop" : 1633427279007,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4d1f11a39cd6b51aa59db8dbd863ff2b"
+    }, {
+      "name" : "test_home",
+      "children" : [ {
+        "name" : "test_class_schedule_card",
+        "uid" : "541768b6508eec8",
+        "parentUid" : "9e001fdbc6eb2c049df70a5875c2536e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633427327666,
+          "stop" : 1633427340649,
+          "duration" : 12983
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9e001fdbc6eb2c049df70a5875c2536e"
+    }, {
+      "name" : "test_recommended_schedule",
+      "children" : [ {
+        "name" : "test_class_schedule_card",
+        "uid" : "b56aef507b44b02d",
+        "parentUid" : "9b58db8586ae62cc6990f11b4f2e7ed9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633427365543,
+          "stop" : 1633427369512,
+          "duration" : 3969
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9b58db8586ae62cc6990f11b4f2e7ed9"
+    } ],
+    "uid" : "1dd5dae00c58193b69825e57e00d160e"
+  } ]
+}

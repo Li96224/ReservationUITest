@@ -1,0 +1,41 @@
+[ {
+  "uid" : "2efcfce6aa75a833",
+  "name" : "test_class_schedule_card",
+  "time" : {
+    "start" : 1633427267296,
+    "stop" : 1633427278400,
+    "duration" : 11104
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "29ee3c099ab815cd",
+  "name" : "test_group_class_details",
+  "time" : {
+    "start" : 1633427279007,
+    "stop" : 1633427279007,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b56aef507b44b02d",
+  "name" : "test_class_schedule_card",
+  "time" : {
+    "start" : 1633427365543,
+    "stop" : 1633427369512,
+    "duration" : 3969
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "541768b6508eec8",
+  "name" : "test_class_schedule_card",
+  "time" : {
+    "start" : 1633427327666,
+    "stop" : 1633427340649,
+    "duration" : 12983
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

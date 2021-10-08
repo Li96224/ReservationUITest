@@ -1,0 +1,105 @@
+{
+  "uid" : "2efcfce6aa75a833",
+  "name" : "test_class_schedule_card",
+  "fullName" : "TestCases.test_class_schedule_card.TestClassScheduleCard#test_class_schedule_card",
+  "historyId" : "1bfc097fc348a471c2ab29e3cb49a404",
+  "time" : {
+    "start" : 1633427267296,
+    "stop" : 1633427278400,
+    "duration" : 11104
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_home_page",
+    "time" : {
+      "start" : 1633427243810,
+      "stop" : 1633427267294,
+      "duration" : 23484
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "get_home_page::0",
+    "time" : {
+      "start" : 1633427278401,
+      "stop" : 1633427279004,
+      "duration" : 603
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('get_home_page')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_class_schedule_card"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestClassScheduleCard"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-LEH3UAFD"
+  }, {
+    "name" : "thread",
+    "value" : "59396-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCases.test_class_schedule_card"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "90934c3ab5380118",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633427089120,
+        "stop" : 1633427099839,
+        "duration" : 10719
+      }
+    }, {
+      "uid" : "bd5fe0c240376c57",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633426811306,
+        "stop" : 1633426821748,
+        "duration" : 10442
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('get_home_page')" ]
+  },
+  "source" : "2efcfce6aa75a833.json",
+  "parameterValues" : [ ]
+}

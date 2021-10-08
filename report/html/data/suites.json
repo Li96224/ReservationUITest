@@ -1,0 +1,93 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "TestCases",
+    "children" : [ {
+      "name" : "test_class_schedule_card",
+      "children" : [ {
+        "name" : "TestClassScheduleCard",
+        "children" : [ {
+          "name" : "test_class_schedule_card",
+          "uid" : "2efcfce6aa75a833",
+          "parentUid" : "bdf485ca049e12614ebcab7e03a5d7cd",
+          "status" : "passed",
+          "time" : {
+            "start" : 1633427267296,
+            "stop" : 1633427278400,
+            "duration" : 11104
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "bdf485ca049e12614ebcab7e03a5d7cd"
+      } ],
+      "uid" : "57570ea788ef542348fc32eafe1614ad"
+    }, {
+      "name" : "test_group_class_details",
+      "children" : [ {
+        "name" : "TestGroupClassDetails",
+        "children" : [ {
+          "name" : "test_group_class_details",
+          "uid" : "29ee3c099ab815cd",
+          "parentUid" : "6a38989f9be433ba303f63137a5376cf",
+          "status" : "broken",
+          "time" : {
+            "start" : 1633427279007,
+            "stop" : 1633427279007,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "6a38989f9be433ba303f63137a5376cf"
+      } ],
+      "uid" : "44aefd3ca0e85bbae243c6903cbd22a5"
+    }, {
+      "name" : "test_home",
+      "children" : [ {
+        "name" : "TestClassScheduleCard",
+        "children" : [ {
+          "name" : "test_class_schedule_card",
+          "uid" : "541768b6508eec8",
+          "parentUid" : "db313e51755acc1d574302ef5f23b182",
+          "status" : "passed",
+          "time" : {
+            "start" : 1633427327666,
+            "stop" : 1633427340649,
+            "duration" : 12983
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "db313e51755acc1d574302ef5f23b182"
+      } ],
+      "uid" : "b0827e789ddf0e61e656d97858c7497f"
+    }, {
+      "name" : "test_recommended_schedule",
+      "children" : [ {
+        "name" : "TestClassScheduleCard",
+        "children" : [ {
+          "name" : "test_class_schedule_card",
+          "uid" : "b56aef507b44b02d",
+          "parentUid" : "eae93df79eca8d8177152cd6b2d1b01c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1633427365543,
+            "stop" : 1633427369512,
+            "duration" : 3969
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "eae93df79eca8d8177152cd6b2d1b01c"
+      } ],
+      "uid" : "004f4762a6fca4577f6f527dcb3652ec"
+    } ],
+    "uid" : "0408d924bc3d43de55080f45620fd22e"
+  } ]
+}

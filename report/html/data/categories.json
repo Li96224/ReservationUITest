@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: A new session could not be created. Details: session not created\nfrom no such window: window was already closed\n  (Session info: chrome=77.0.3865.120)",
+      "children" : [ {
+        "name" : "test_group_class_details",
+        "uid" : "29ee3c099ab815cd",
+        "parentUid" : "926adb2681c5b3a411d48219d6765f45",
+        "status" : "broken",
+        "time" : {
+          "start" : 1633427279007,
+          "stop" : 1633427279007,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "926adb2681c5b3a411d48219d6765f45"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

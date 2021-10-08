@@ -1,0 +1,4 @@
+{'data': {'count': None, 'token': 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJzdXBlcm1vbmtleS5jb20uY24iLCJzdWIiOiIxMDAyODE4MyIsImF1ZCI6IlNVUEVSTU9OS0VZLVNBQVMiLCJleHAiOjE2MzYwMTkyMDYsImp0aSI6IjI4ODcyOTIwMjgxNDQ5Njc2OCIsInVzZXJuYW1lIjoiMTMwNDkzNzY1NzciLCJ1c2VySWQiOjEwMDI4MTgzLCJ0ZW5hbnRJZCI6MjYyNTcsImxvZ2luSXBBZGRyIjoiMTE5LjEyMy4xMjcuMTcwIn0.Yaiw-we7vZv6cYX-wWpa7fhvzN41xZhykeveHDDS3f8'}, 'rtn': 0, 'msg': '操作成功'}
+{'classId': 5020, 'mainCoachId': [3216262], 'extraTuitionFee': 0, 'fullNumber': 30, 'scheduleRange': {'startTimestamp': 1633427206000, 'endTimestamp': 1633430206000}, 'boxId': 2375, 'confirmAgain': False, 'schedulePrice': 532000}
+{'data': {'title': '新增排课失败，教室同时段已存在如下排课记录，请修改后重新提交', 'errorMsgs': [{'value': '2021年10月5日16:59 - 17:49', 'key': '上课时间'}, {'value': '[主]3216262 黎又铭', 'key': '上课教练'}, {'value': '5020 BODY COMBAT燃脂搏击(初级课)2222', 'key': '课程'}], 'bookingNumber': None, 'type': 'box'}, 'rtn': -1, 'msg': ''}
+{'data': None, 'rtn': 0, 'msg': '操作成功'}

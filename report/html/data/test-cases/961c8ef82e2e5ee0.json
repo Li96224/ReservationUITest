@@ -1,0 +1,107 @@
+{
+  "uid" : "961c8ef82e2e5ee0",
+  "name" : "test_group_class_details",
+  "fullName" : "TestCases.test_group_class_details.TestGroupClassDetails#test_group_class_details",
+  "historyId" : "3a86d95866c1aa9036566f43beabe7ab",
+  "time" : {
+    "start" : 1633427125831,
+    "stop" : 1633427172688,
+    "duration" : 46857
+  },
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.TimeoutException: Message:",
+  "statusTrace" : "self = <TestCases.test_group_class_details.TestGroupClassDetails object at 0x0000021C4DC324E0>\nget_home_page = <appium.webdriver.webdriver.WebDriver (session=\"d8d82ef5-614c-4a5a-bb19-d9a11b21ea34\")>\n\n    def test_group_class_details(self,get_home_page):\n        create_schedule(class_id=5020, coach_id=[3216262], box_id=2375, tenant_id=26257, isTrue=True,\n                        now=True)\n        TopTab(get_home_page).click_home_key()\n    \n        HomePage(get_home_page).click_class_name()\n        HomePage(get_home_page).switch_to_NATIVE_APP()\n        HomePage(get_home_page).switch_to_WEBVIEW_com()\n        assert(GroupClassDetailsPage(get_home_page).get_league_class_name_text()=='BODY COMBAT燃脂搏击(初级课)2222' )\n        assert(GroupClassDetailsPage(get_home_page).get_coach_name_text()=='黎又铭' )\n        RecommendedSchedulePage(get_home_page).swipe_by_dorection('up')\n    \n        # assert(GroupClassDetailsPage(get_home_page).get_coach_introduction_text() is True )\n        # assert(GroupClassDetailsPage(get_home_page).get_course_introduction_text()=='BODYCOMBAT有氧搏击，将中国武术、泰拳、西洋拳击、空手道、跆拳道等结合在一起，高效燃脂的同时提升体能和灵活性。动作节奏性非常强，让你的训练课就像一场运动party。' )\n        assert(GroupClassDetailsPage(get_home_page).get_course_label_1_text()=='燃脂' )\n        assert(GroupClassDetailsPage(get_home_page).get_course_label_2_text()=='搏击' )\n        assert(GroupClassDetailsPage(get_home_page).get_course_label_3_text()=='LesMills' )\n        assert(GroupClassDetailsPage(get_home_page).get_training_effect_text()=='BODYCOMBAT是快节奏、中高强度、多重复次数的搏击主题有氧运动项目。持续1小时左右的有氧训练，不仅可以高效燃脂，还能促进新陈代谢，改善心肺功能。同时它的动作快速有力，反复训练能帮助提高动作的敏捷性。现代都市白领生活压力较大，搏击主题的有氧运动可以让你尽情释放压力。' )\n        RecommendedSchedulePage(get_home_page).swipe_by_dorection('up')\n    \n        assert(GroupClassDetailsPage(get_home_page).get_crowd_suits_text()=='BODYCOMBAT将搏击和有氧训练结合，动作和音乐经过顶级教练员、运动生理专家、编辑师精心研究，不仅安全有效，还易于掌握。无论是平时缺乏锻炼、身材娇小、体质瘦弱的白领女性，还是身体强壮的男性，都非常适合参与，从而达到燃脂瘦身，放松减压的目的。但是孕妇、高血压、动脉粥样硬化、心脏病患者均不宜参加，以免发生意外。' )\n        assert(GroupClassDetailsPage(get_home_page).get_F_text()=='Q: 女生适合BODYCOMBAT吗？' )\n        assert(GroupClassDetailsPage(get_home_page).get_AQ_text()=='A: 非常适合。BODYCOMBAT主要功效是减脂，而不是锻炼肌肉。看上去这么有男子气概的方式，同样非常适用于女性。如果能够长期坚持，再适当地配合器械组合，就会使身体的构成有所改变，肌肉会逐渐取代松松的赘肉，身体的线条会更加清晰。值得一提的是，女生打起拳来也很帅哦！' )\n        # assert(GroupClassDetailsPage(get_home_page).get_note_text() is True )\n>       assert(GroupClassDetailsPage(get_home_page).get_appointment_text()==\"赠课给好友\" )\n\nTestCases\\test_group_class_details.py:39: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \nPageObject\\group_class_details_page.py:104: in get_appointment_text\n    return self.get_text(loc=(MobileBy.XPATH, self.appointment), img_name=\"团课详情页\")\nCommon\\basepage.py:108: in get_text\n    self.wait_ele_visible(loc=loc, img_name=img_name, timeout=timeout, poll_fre=poll_fre)\nCommon\\basepage.py:40: in wait_ele_visible\n    EC.visibility_of_element_located(loc))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"d8d82ef5-614c-4a5a-bb19-d9a11b21ea34\")>\nmethod = <selenium.webdriver.support.expected_conditions.visibility_of_element_located object at 0x0000021C4E49E588>, message = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\nc:\\program files\\python37\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:80: TimeoutException",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_home_page",
+    "time" : {
+      "start" : 1633427100440,
+      "stop" : 1633427125831,
+      "duration" : 25391
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.TimeoutException: Message:",
+    "statusTrace" : "self = <TestCases.test_group_class_details.TestGroupClassDetails object at 0x0000021C4DC324E0>\nget_home_page = <appium.webdriver.webdriver.WebDriver (session=\"d8d82ef5-614c-4a5a-bb19-d9a11b21ea34\")>\n\n    def test_group_class_details(self,get_home_page):\n        create_schedule(class_id=5020, coach_id=[3216262], box_id=2375, tenant_id=26257, isTrue=True,\n                        now=True)\n        TopTab(get_home_page).click_home_key()\n    \n        HomePage(get_home_page).click_class_name()\n        HomePage(get_home_page).switch_to_NATIVE_APP()\n        HomePage(get_home_page).switch_to_WEBVIEW_com()\n        assert(GroupClassDetailsPage(get_home_page).get_league_class_name_text()=='BODY COMBAT燃脂搏击(初级课)2222' )\n        assert(GroupClassDetailsPage(get_home_page).get_coach_name_text()=='黎又铭' )\n        RecommendedSchedulePage(get_home_page).swipe_by_dorection('up')\n    \n        # assert(GroupClassDetailsPage(get_home_page).get_coach_introduction_text() is True )\n        # assert(GroupClassDetailsPage(get_home_page).get_course_introduction_text()=='BODYCOMBAT有氧搏击，将中国武术、泰拳、西洋拳击、空手道、跆拳道等结合在一起，高效燃脂的同时提升体能和灵活性。动作节奏性非常强，让你的训练课就像一场运动party。' )\n        assert(GroupClassDetailsPage(get_home_page).get_course_label_1_text()=='燃脂' )\n        assert(GroupClassDetailsPage(get_home_page).get_course_label_2_text()=='搏击' )\n        assert(GroupClassDetailsPage(get_home_page).get_course_label_3_text()=='LesMills' )\n        assert(GroupClassDetailsPage(get_home_page).get_training_effect_text()=='BODYCOMBAT是快节奏、中高强度、多重复次数的搏击主题有氧运动项目。持续1小时左右的有氧训练，不仅可以高效燃脂，还能促进新陈代谢，改善心肺功能。同时它的动作快速有力，反复训练能帮助提高动作的敏捷性。现代都市白领生活压力较大，搏击主题的有氧运动可以让你尽情释放压力。' )\n        RecommendedSchedulePage(get_home_page).swipe_by_dorection('up')\n    \n        assert(GroupClassDetailsPage(get_home_page).get_crowd_suits_text()=='BODYCOMBAT将搏击和有氧训练结合，动作和音乐经过顶级教练员、运动生理专家、编辑师精心研究，不仅安全有效，还易于掌握。无论是平时缺乏锻炼、身材娇小、体质瘦弱的白领女性，还是身体强壮的男性，都非常适合参与，从而达到燃脂瘦身，放松减压的目的。但是孕妇、高血压、动脉粥样硬化、心脏病患者均不宜参加，以免发生意外。' )\n        assert(GroupClassDetailsPage(get_home_page).get_F_text()=='Q: 女生适合BODYCOMBAT吗？' )\n        assert(GroupClassDetailsPage(get_home_page).get_AQ_text()=='A: 非常适合。BODYCOMBAT主要功效是减脂，而不是锻炼肌肉。看上去这么有男子气概的方式，同样非常适用于女性。如果能够长期坚持，再适当地配合器械组合，就会使身体的构成有所改变，肌肉会逐渐取代松松的赘肉，身体的线条会更加清晰。值得一提的是，女生打起拳来也很帅哦！' )\n        # assert(GroupClassDetailsPage(get_home_page).get_note_text() is True )\n>       assert(GroupClassDetailsPage(get_home_page).get_appointment_text()==\"赠课给好友\" )\n\nTestCases\\test_group_class_details.py:39: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \nPageObject\\group_class_details_page.py:104: in get_appointment_text\n    return self.get_text(loc=(MobileBy.XPATH, self.appointment), img_name=\"团课详情页\")\nCommon\\basepage.py:108: in get_text\n    self.wait_ele_visible(loc=loc, img_name=img_name, timeout=timeout, poll_fre=poll_fre)\nCommon\\basepage.py:40: in wait_ele_visible\n    EC.visibility_of_element_located(loc))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"d8d82ef5-614c-4a5a-bb19-d9a11b21ea34\")>\nmethod = <selenium.webdriver.support.expected_conditions.visibility_of_element_located object at 0x0000021C4E49E588>, message = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\nc:\\program files\\python37\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:80: TimeoutException",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3f8ec71f9b14aa3a",
+      "name" : "stdout",
+      "source" : "3f8ec71f9b14aa3a.txt",
+      "type" : "text/plain",
+      "size" : 1088
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "get_home_page::0",
+    "time" : {
+      "start" : 1633427172768,
+      "stop" : 1633427173396,
+      "duration" : 628
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('get_home_page')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_group_class_details"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestGroupClassDetails"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-LEH3UAFD"
+  }, {
+    "name" : "thread",
+    "value" : "76852-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCases.test_group_class_details"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('get_home_page')" ]
+  },
+  "source" : "961c8ef82e2e5ee0.json",
+  "parameterValues" : [ ]
+}
